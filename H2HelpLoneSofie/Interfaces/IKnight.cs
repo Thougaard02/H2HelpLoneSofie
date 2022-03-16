@@ -4,7 +4,7 @@ using System.Text;
 
 namespace H2HelpLoneSofie.Interfaces
 {
-    public interface IKnight : ICharacter, IWarrior, IShield
+    public interface IKnight : ICharacter, IPhysicalAttack, IShield
     {
     }
 }

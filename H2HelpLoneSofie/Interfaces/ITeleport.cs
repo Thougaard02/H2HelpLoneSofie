@@ -4,10 +4,8 @@ using System.Text;
 
 namespace H2HelpLoneSofie.Interfaces
 {
-    public interface IWarrior
+    public interface ITeleport
     {
-        void Bash();
-        void Slash();
-        void Cleave();
+        void Teleport(int x, int y);
     }
 }

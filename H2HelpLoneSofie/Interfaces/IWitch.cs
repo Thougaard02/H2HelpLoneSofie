@@ -4,7 +4,7 @@ using System.Text;
 
 namespace H2HelpLoneSofie.Interfaces
 {
-    public interface IWitch : ICharacter, ISorcerer, IShield
+    public interface IWitch : ICharacter, ITeleport, IShield
     {
        
     }
