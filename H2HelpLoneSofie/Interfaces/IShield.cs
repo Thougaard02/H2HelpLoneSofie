@@ -4,8 +4,9 @@ using System.Text;
 
 namespace H2HelpLoneSofie.Interfaces
 {
-    public interface IWitch : ICharacter, ISorcerer, IShield
+    public interface IShield
     {
-       
+        void RaiseShield();
+        void ShieldGlare();
     }
 }
